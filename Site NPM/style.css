@@ -1,0 +1,374 @@
+/*Header */
+
+header {
+	display: flex;
+	background-color: #231f20;
+	justify-content: center;
+	height: 80px;
+	align-items: center;
+	flex-direction: row;
+	font-family: 'Jost', sans-serif;
+}
+
+.pHeader {
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 24px;
+	line-height: 100%;
+}
+
+.logoPreto {
+	margin-top: 10px;
+}
+
+.logoGato {
+	margin-top: 5px;
+}
+
+.linha {
+	border-width: 10px 0 0;
+	border-top-style: solid;
+	border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+	padding-bottom: 15px;
+}
+
+/*Body*/
+
+body {
+	font-family: 'Jost', sans-serif;
+    border-bottom: solid;
+    border-width: 10px;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+.cabecalho {
+	display: flex;
+}
+
+nav ul {
+	display: flex;
+	padding-left: 680px;
+}
+
+.cabecalho {
+	padding-top: 20px;
+}
+
+.liCabecalho2 {
+	color: #000;
+	text-decoration: none;
+	padding: 13px;
+	font-size: 17px;
+}
+
+.liCabecalho2:hover {
+	opacity: 0.65;
+}
+
+.coracao {
+	padding-left: 30px;
+}
+
+.pCabecalho {
+	padding-left: 15px;
+}
+
+.search {
+	border-width: 1px;
+    border-top-style: solid;
+    border-color: rgba(0,0,0,.1);
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.input {
+	height: 51px;
+    width: 800px;
+    background-color: rgba(0,0,0,.1);
+    border:none;
+    font-size: 16px;
+    padding-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+.logoBranco {
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.button {
+	background-color: #231f20;
+    color: white;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0,3;
+    letter-spacing: 0.5px;
+}
+
+.buttonSignUp {
+	border:1px solid #cccccc;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0,3;
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+}
+
+.buttonSignUp:hover {
+	opacity: 0.65;
+}
+
+.buttonSignIn:hover {
+	opacity: 0.65;
+}
+
+.buttonSignIn {
+	border:none;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0,3;
+    letter-spacing: 0.5px;
+}
+
+.background {
+	background-image: url(background.jpg);
+	margin-top: 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.mainTitulo {
+	color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    width: 600px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-size: 35px;
+    color: white;
+    width: 450px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.mainP {
+	width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin:30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainButton {
+	padding-left: 390px;
+    padding-top: 40px;
+}
+
+.signUpFree {
+	height: 60px;
+    width: 250px;
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.signUpFree:hover {
+	opacity: 0.65;
+}
+
+.learnAbout {
+    height: 60px;
+    width: 250px;
+    background: #e81aa8;
+    border-bottom: solid 5px #b30ad2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;	
+}
+
+.learnAbout:hover {
+	opacity: 0.65;
+}
+
+.logo-itens {
+	width: 1000px;
+}
+
+.about-section {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.about-image {
+	padding-bottom: 25px;
+	padding-top: 60px;
+}
+
+.about-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 38px;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+h4 {
+	color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.secoes {
+	display: flex;
+	width: 1060px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.sec1 {
+	padding-right: 90px;
+    padding-left: 40px;
+}
+
+.sec2 {
+	padding-right: 90px;
+    padding-left: 30px;
+}
+
+.sec3 {
+	padding-right: 100px;
+    padding-left: 30px;
+}
+
+.buttons-learn {
+	display: flex;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+
+.button-learn-more {
+    height: 45px;
+    width: 170px;
+    margin-left: 93px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border: solid 1px;
+    border-radius: 30px;
+    background: #fffafa00;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-learn-more:hover {
+	background-color: #ffbbc763;
+}
+
+.source {
+	background-image: url(bg.jpeg);
+	height: 350px;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.source-title {
+	text-align: center;
+    color: white;
+    font-size: 55px;
+    padding-top: 65px;
+}
+
+.source-p {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 17px;
+    padding-left: 350px;
+    width: 920px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sponsorship {
+	padding-bottom: 60px;
+}
+
+.sponsorship-title {
+	text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    padding-left: 395px;
+    width: 850px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 45px;
+}
+
+.sponsorship-image {
+	padding-left: 350px;
+}
+
+footer {
+    display: flex;
+    padding-top: 60px;
+    border-top: solid 1px;
+    border-color: rgba(0,0,0,.1);
+    padding-bottom: 60px;
+}
+
+.logo-footer {
+	padding-right: 20px;
+    padding-left: 30px;
+}
+
+.footer-top-nav {
+	display: flex;
+}
+
+.listafooter {
+	display: flex;
+	flex-direction: column;
+	padding-right: 250px;
+	padding-left: 30px;
+	font-size: 18px;
+}
+
+.itens {
+	padding-bottom: 5px;
+    padding-top: 15px;
+}
